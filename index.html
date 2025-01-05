@@ -1,26 +1,129 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>JavaScript Demo</title>
-        <input type="text" id="name" placeholder="Enter your name">
-        <button onclick="greet()">Greet</button>
-        <p id="greeting"></p>
-        <script>
-            function greet(){
-                let name= document.getElementById("name").value;
-                document.getElementById("greeting").innerHTML= "Hello"+name+"!";
-                let xhr = new XMLHttpRequest();
-                xhr.open("GET","https://api.example.com/data");
-                xhr.onload=function(){
-                    if(xhr.status===200){
-                        let data= JSON.parse(xhr.responseText);
-                        console.log(data);
-                    } else {
-                        console.error("Request failed. Returned status of" + xhr.status);
-                    }
-                };
-                xhr.send();
-            }
-        </script>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medisoul - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="assets/logo.png" alt="Medisoul Logo" class="logo">
+            <div class="app-title">
+                <h1 class="app-name">Medi<span class="soul">Soul</span></h1>
+                <p class="tagline">Empowering Your Wellness Journey</p>
+            </div>
+        </div>
+        <div class="hamburger" id="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <nav id="nav">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="yoga.html">Yoga</a></li>
+            <li><a href="self-improvement.html">Self Improvement</a></li>
+            <li><a href="quotes.html">Quotes</a></li>
+            <li><a href="healthy-meal.html">Healthy Meal</a></li>
+            <li><a href="favourite.html">Favourite</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to MediSoul</h1>
+        <p>Your journey to wellness begins here. Explore music, yoga, and more for a balanced life.</p>
+        <div class="cta-buttons">
+            <a href="yoga.html" class="btn-primary">Start Yoga</a>
+            <a href="music.html" class="btn-secondary">Relax with Music</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Why Choose MediSoul?</h2>
+        <div class="feature-item">
+            <img src="assets/music.png" alt="Music">
+            <h3>Relaxing Music</h3>
+            <p>Curated playlists for every mood and moment.</p>
+        </div>
+        <div class="feature-item">
+            <img src="assets/yoga.png" alt="Yoga">
+            <h3>Yoga Routines</h3>
+            <p>Guided sequences for beginners and experts.</p>
+        </div>
+        <div class="feature-item">
+            <img src="assets/self-improvement.png" alt="Self Improvement">
+            <h3>Self-Improvement</h3>
+            <p>Tools and tips for personal growth and productivity.</p>
+        </div>
+    </section>
+
+    <!-- User Reviews Section with Horizontal Scroll -->
+    <section class="reviews">
+        <h2>What Our Users Say</h2>
+        <div class="review-container">
+            <div class="review-card">
+                <p>"MediSoul transformed my mornings with its yoga routines and calming music."</p>
+                <p><strong>- Sarah, Wellness Enthusiast</strong></p>
+            </div>
+            <div class="review-card">
+                <p>"The self-improvement resources are a game-changer for my productivity."</p>
+                <p><strong>- John, Entrepreneur</strong></p>
+            </div>
+            <div class="review-card">
+                <p>"I love the variety of music! It helps me relax and focus during work."</p>
+                <p><strong>- Emma, Designer</strong></p>
+            </div>
+            <div class="review-card">
+                <p>"Yoga has helped me improve my flexibility and overall well-being."</p>
+                <p><strong>- David, Yoga Practitioner</strong></p>
+            </div>
+            <div class="review-card">
+                <p>"The meditation guides are perfect for reducing my stress levels."</p>
+                <p><strong>- Priya, Student</strong></p>
+            </div>
+            <div class="review-card">
+                <p>"A great combination of music, yoga, and self-improvement in one place!"</p>
+                <p><strong>- Alex, Fitness Lover</strong></p>
+            </div>
+            <div class="review-card">
+                <p>"This app has helped me find balance in my busy lifestyle."</p>
+                <p><strong>- Lily, Working Professional</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Revamped Newsletter Section -->
+    <section class="newsletter">
+        <h2>Stay Updated with MediSoul</h2>
+        <p>Sign up for exclusive wellness tips, updates, and more straight to your inbox!</p>
+        <form action="#">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="btn-primary">Subscribe Now</button>
+        </form>
+        <p class="newsletter-note">Get weekly inspiration and the latest in wellness!</p>
+    </section>
+
+    <!-- Social Media Links -->
+    <section class="social-media">
+        <h2>Follow Us</h2>
+        <div class="social-icons">
+            <a href="#"><img src="assets/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="assets/instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Medisoul. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
 </html>

@@ -1,0 +1,312 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: linear-gradient(90deg, #3a6ea5, #4ca1af);
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.app-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-name {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.app-name .soul {
+    color: #ffe85f;
+    font-style: italic;
+}
+
+.tagline {
+    font-size: 0.9em;
+    color: #e6f2ff;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+/* Navigation Bar */
+#nav {
+    display: flex;
+    justify-content: center;
+    background-color: #3a6ea5;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    background-color: #fff;
+    color: #3a6ea5;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #3a6ea5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Animation for Fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hamburger Menu Animation */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: 0.4s ease;
+}
+
+.hamburger:hover span {
+    background-color: #ffe85f;
+}
+
+/* Mobile View Adjustments */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    #nav {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav.active {
+        display: flex;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app-title {
+        text-align: center;
+    }
+
+    .app-name {
+        font-size: 1.8em;
+    }
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero-background.jpg') center/cover no-repeat;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.cta-buttons a {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #f39c12;
+    color: white;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.feature-item {
+    text-align: center;
+    width: 30%;
+}
+
+.feature-item img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+/* User Reviews Section */
+.reviews {
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.reviews h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.review-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.review-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-10px);
+}
+
+.review-card p {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+/* Newsletter Section */
+.newsletter {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+.newsletter form input {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.newsletter form button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter-note {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
