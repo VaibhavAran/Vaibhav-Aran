@@ -1,26 +1,13 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>JavaScript Demo</title>
-        <input type="text" id="name" placeholder="Enter your name">
-        <button onclick="greet()">Greet</button>
-        <p id="greeting"></p>
-        <script>
-            function greet(){
-                let name= document.getElementById("name").value;
-                document.getElementById("greeting").innerHTML= "Hello"+name+"!";
-                let xhr = new XMLHttpRequest();
-                xhr.open("GET","https://api.example.com/data");
-                xhr.onload=function(){
-                    if(xhr.status===200){
-                        let data= JSON.parse(xhr.responseText);
-                        console.log(data);
-                    } else {
-                        console.error("Request failed. Returned status of" + xhr.status);
-                    }
-                };
-                xhr.send();
-            }
-        </script>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindfulness App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to Mindfulness App</h1>
+    <script src="script.js"></script>
+</body>
 </html>
