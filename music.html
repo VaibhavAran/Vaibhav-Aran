@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medisoul - Music</title>
+    <title>Syncaliva - Music</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
         <div class="logo-container">
             <img src="assets/logo.png" alt="Medisoul Logo" class="logo">
             <div class="app-title">
-                <h1 class="app-name">Medi<span class="soul">Soul</span></h1>
+                <h1 class="app-name">Sync<span class="soul">Aliva</span></h1>
                 <p class="tagline">Empowering Your Wellness Journey</p>
             </div>
         </div>
@@ -25,30 +25,34 @@
     <nav id="nav">
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
-            <li><a href="music.html">Music</a></li>
+            <li><a href="music.html" class="active">Music</a></li>
             <li><a href="yoga.html">Yoga</a></li>
             <li><a href="self-improvement.html">Self Improvement</a></li>
             <li><a href="quotes.html">Quotes</a></li>
             <li><a href="healthy-meal.html">Healthy Meal</a></li>
-            <li><a href="favourite.html">Favourite</a></li>
             <li><a href="about-us.html">About Us</a></li>
         </ul>
     </nav>
-
+    
     <main>
-        <section class="music">
-            <h2>Relaxing Music</h2>
-            <p>Explore a curated list of music tracks for relaxation, meditation, and focus.</p>
-            <ul>
-                <li><strong>Peaceful Mind:</strong> Calming piano music to soothe your mind.</li>
-                <li><strong>Nature's Symphony:</strong> Ambient sounds of nature to promote relaxation.</li>
-                <li><strong>Focus Beats:</strong> Instrumental tracks to boost productivity.</li>
-            </ul>
-        </section>
+        <div id="music-container" class="music-section">
+            <!-- Songs will be dynamically loaded -->
+        </div>
     </main>
 
+    <!-- Mini Player -->
+    <div id="mini-player" class="mini-player">
+        <img id="mini-player-image" src="assets/music.png" alt="Playing Song">
+        <div class="mini-player-info">
+            <p id="mini-player-song-title">Select a song...</p>
+        </div>
+        <div class="mini-player-controls">
+            <button id="play-pause-button">▶</button>
+        </div>
+    </div>
+
     <footer>
-        <p>&copy; 2025 Medisoul. All rights reserved.</p>
+        <p>&copy; 2025 Syncaliva. All rights reserved.</p>
     </footer>
 
     <script src="js/script.js"></script>

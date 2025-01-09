@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medisoul - Self Improvement</title>
+    <title>Syncaliva - Self Improvement</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
         <div class="logo-container">
             <img src="assets/logo.png" alt="Medisoul Logo" class="logo">
             <div class="app-title">
-                <h1 class="app-name">Medi<span class="soul">Soul</span></h1>
+                <h1 class="app-name">Sync<span class="soul">Aliva</span></h1>
                 <p class="tagline">Empowering Your Wellness Journey</p>
             </div>
         </div>
@@ -30,27 +30,58 @@
             <li><a href="self-improvement.html">Self Improvement</a></li>
             <li><a href="quotes.html">Quotes</a></li>
             <li><a href="healthy-meal.html">Healthy Meal</a></li>
-            <li><a href="favourite.html">Favourite</a></li>
             <li><a href="about-us.html">About Us</a></li>
         </ul>
     </nav>
 
     <main>
-        <section class="self-improvement">
-            <h2>Self-Improvement Resources</h2>
-            <p>Empower yourself with resources that inspire growth:</p>
-            <ul>
-                <li><strong>Productivity Tips:</strong> Learn to manage your time effectively.</li>
-                <li><strong>Mindfulness Practices:</strong> Techniques to stay present and grounded.</li>
-                <li><strong>Personal Growth Books:</strong> Curated book recommendations for development.</li>
-            </ul>
+        <section id="meditation-section">
+            <h2>Meditation</h2>
+            <div class="meditation-controls">
+                <input type="number" id="meditation-duration" placeholder="Enter minutes">
+                <button id="meditation-start">Start</button>
+                <button id="meditation-pause">Pause</button>
+                <button id="meditation-reset">Reset</button>
+            </div>
+            <div class="meditation-display">
+                <h3>Timer: <span id="meditation-timer-display">00:00</span></h3>
+                <p id="meditation-message"></p>
+            </div>
+        </section>
+
+        <section id="to-do-list-section">
+            <h2>To-Do List</h2>
+            <input type="text" id="todo-input" placeholder="Add new task...">
+            <button id="add-todo">Add Task</button>
+            <div id="todo-items"></div>
+        </section>
+
+        <section id="goal-setting-section">
+            <h2>Goal Setting</h2>
+            <input type="text" id="goal-input" placeholder="Add new goal...">
+            <button id="add-goal">Add Goal</button>
+            <div id="goal-list"></div>
+        </section>
+
+        <section id="gratitude-section">
+            <h2>Gratitude Journal</h2>
+            <textarea id="gratitude-input" rows="3" placeholder="Write what you're grateful for..."></textarea>
+            <button id="save-gratitude">Save</button>
+            <div id="gratitude-display"></div>
+        </section>
+
+        <section id="mini-challenges-section">
+            <h2>Mini Challenges</h2>
+            <input type="text" id="mini-challenge-input" placeholder="Add new mini challenge...">
+            <button id="add-mini-challenge">Add Challenge</button>
+            <div id="mini-challenges-list"></div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Medisoul. All rights reserved.</p>
+        <p>&copy; 2025 Syncaliva. All rights reserved.</p>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="js/script-self-improvement.js"></script>
 </body>
 </html>

@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medisoul - Quotes</title>
+    <title>Syncaliva - Quotes</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
     <header>
         <div class="logo-container">
             <img src="assets/logo.png" alt="Medisoul Logo" class="logo">
             <div class="app-title">
-                <h1 class="app-name">Medi<span class="soul">Soul</span></h1>
+                <h1 class="app-name">Sync<span class="soul">Aliva</span></h1>
                 <p class="tagline">Empowering Your Wellness Journey</p>
             </div>
         </div>
@@ -30,25 +31,29 @@
             <li><a href="self-improvement.html">Self Improvement</a></li>
             <li><a href="quotes.html">Quotes</a></li>
             <li><a href="healthy-meal.html">Healthy Meal</a></li>
-            <li><a href="favourite.html">Favourite</a></li>
             <li><a href="about-us.html">About Us</a></li>
         </ul>
     </nav>
 
-    <main>
-        <section class="quotes">
-            <h2>Inspirational Quotes</h2>
-            <p>Draw inspiration from these powerful quotes:</p>
-            <ul>
-                <li>"Health is not valued till sickness comes." – Thomas Fuller</li>
-                <li>"The groundwork of all happiness is health." – Leigh Hunt</li>
-                <li>"Your body hears everything your mind says." – Naomi Judd</li>
-            </ul>
-        </section>
-    </main>
+    <!-- Quotes Section with Tabs -->
+    <section class="quotes-section">
+        <div class="quote-tabs">
+            <button class="tab-button" data-category="motivational">Motivational</button>
+            <button class="tab-button" data-category="inspirational">Inspirational</button>
+            <button class="tab-button" data-category="life">Life</button>
+            <button class="tab-button" data-category="success">Success</button>
+            <button class="tab-button" data-category="happiness">Happiness</button>
+        </div>
+        
+        <div id="quoteContainer" class="quote-items-container">
+            <!-- Quotes will be dynamically inserted here -->
+        </div>
+        
+    </section>
 
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2025 Medisoul. All rights reserved.</p>
+        <p>&copy; 2025 Syncaliva. All rights reserved.</p>
     </footer>
 
     <script src="js/script.js"></script>

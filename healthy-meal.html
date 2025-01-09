@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medisoul - Healthy Meal</title>
+    <title>Syncaliva - Healthy Meal</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
         <div class="logo-container">
             <img src="assets/logo.png" alt="Medisoul Logo" class="logo">
             <div class="app-title">
-                <h1 class="app-name">Medi<span class="soul">Soul</span></h1>
+                <h1 class="app-name">Sync<span class="soul">Aliva</span></h1>
                 <p class="tagline">Empowering Your Wellness Journey</p>
             </div>
         </div>
@@ -30,25 +30,83 @@
             <li><a href="self-improvement.html">Self Improvement</a></li>
             <li><a href="quotes.html">Quotes</a></li>
             <li><a href="healthy-meal.html">Healthy Meal</a></li>
-            <li><a href="favourite.html">Favourite</a></li>
             <li><a href="about-us.html">About Us</a></li>
         </ul>
     </nav>
 
     <main>
         <section class="healthy-meal">
-            <h2>Healthy Meal Ideas</h2>
-            <p>Fuel your body with these nutritious recipes:</p>
-            <ul>
-                <li><strong>Avocado Salad:</strong> A refreshing blend of avocado, greens, and lemon.</li>
-                <li><strong>Quinoa Bowl:</strong> Packed with protein and fresh vegetables.</li>
-                <li><strong>Fruit Smoothie:</strong> Blend your favorite fruits with almond milk.</li>
-            </ul>
+            <h1>Healthy Meal</h1>
+            <p>Explore the healthy meals and their nutritional values. Search for any meal or click on each item for more details!</p>
+        
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search for a meal..." oninput="handleSearchInput()">
+                <button id="searchButton" onclick="searchMeal()">Search</button>
+                <button id="resetButton" onclick="resetMeals()">Reset</button>
+            </div>
+            
+        
+            <!-- Fruits Section -->
+            <div class="meal-category">
+                <h2>Fruits</h2>
+                <div class="meal-items-container" id="fruits">
+                    <!-- Fruit items will be populated here -->
+                </div>
+            </div>
+        
+            <!-- Vegetables Section -->
+            <div class="meal-category">
+                <h2>Vegetables</h2>
+                <div class="meal-items-container" id="vegetables">
+                    <!-- Vegetable items will be populated here -->
+                </div>
+            </div>
+        
+            <!-- Dairy Products Section -->
+            <div class="meal-category">
+                <h2>Dairy Products</h2>
+                <div class="meal-items-container" id="dairy">
+                    <!-- Dairy products will be populated here -->
+                </div>
+            </div>
+        
+            <!-- Veg Dishes Section -->
+            <div class="meal-category">
+                <h2>Veg Dishes</h2>
+                <div class="meal-items-container" id="vegDishes">
+                    <!-- Veg dishes will be populated here -->
+                </div>
+            </div>
         </section>
+        
+        
+     <!-- Meal Categories -->
+<div id="fruits"></div>
+<div id="vegetables"></div>
+<div id="dairy"></div>
+<div id="vegDishes"></div>
+
+<!-- Modal for displaying meal details -->
+<div id="meal-details-modal" class="meal-details-modal">
+    <div class="meal-details-content">
+        <span class="close" onclick="closeModal()">X</span>
+        <h3 id="meal-name"></h3>
+        <img id="meal-image" src="" alt="Meal Image">
+        <p><strong>Protein:</strong> <span id="protein"></span> g</p>
+        <p><strong>Carbs:</strong> <span id="carbs"></span> g</p>
+        <p><strong>Fat:</strong> <span id="fat"></span> g</p>
+        <p><strong>Calories:</strong> <span id="energy"></span> kcal</p>
+    </div>
+</div>
+
+
+        
+        
     </main>
 
     <footer>
-        <p>&copy; 2025 Medisoul. All rights reserved.</p>
+        <p>&copy; 2025 Syncaliva. All rights reserved.</p>
     </footer>
 
     <script src="js/script.js"></script>

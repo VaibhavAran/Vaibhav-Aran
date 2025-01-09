@@ -1,0 +1,130 @@
+{
+    "categories": {
+      "Relaxing": [
+        {
+          "title": "Krishna flute",
+          "file": "assets/music/krishna-flute.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Forest Lullaby",
+          "file": "assets/music/forest-lullaby-110624.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Lofi Study Calm Peaceful music",
+          "file": "assets/music/lofi-study-calm-peaceful-chill-hop-112191.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Please Calm My Mind",
+          "file": "assets/music/please-calm-my-mind-125566.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "The Beat Of Nature",
+          "file": "assets/music/the-beat-of-nature-122841.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Tibet",
+          "file": "assets/music/tibet-263439.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Haratanya Sree",
+          "file": "assets/music/Veena_Kinhal_-_01_-_Haratanaya_Sree(chosic.com).mp3",
+          "image": "assets/music.png"
+        }
+      ],
+      "Workout": [
+        {
+          "title": "Your Story",
+          "file": "assets/music/Your-Story(chosic.com).mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Batman",
+          "file": "assets/music/batman.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Run and Fitness Rock",
+          "file": "assets/music/run-and-fitness-rock-197801.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Fitness Fury",
+          "file": "assets/music/fitness-fury-273494.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Sport Fitness",
+          "file": "assets/music/sport-fitness-164589.mp3",
+          "image": "assets/music.png"
+        }
+      ],
+      "Party": [
+        {
+          "title": "Relax Vlog Night Street",
+          "file": "assets/music/relaxed-vlog-night-street-131746.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Club Hits",
+          "file": "assets/music/motivational-background-corporate-city-273359.mp3",
+          "image": "assets/music.png"
+        }
+      ],
+      "Focus": [
+        {
+          "title": "Delicate Reverie Background Piano",
+          "file": "assets/music/delicate-reverie-background-piano-music-269613.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Emotional Piano",
+          "file": "assets/music/emotional-piano-music-256262.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Meditation Music Without Nature Sound",
+          "file": "assets/music/meditation-music-without-nature-sound-256142.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Relaxing Piano Music",
+          "file": "assets/music/relaxing-piano-music-248868.mp3",
+          "image": "assets/music.png"
+        }
+      ],
+      "Sleep": [
+        {
+          "title": "Deep Relaxing Music",
+          "file": "assets/music/deep-relaxing-music-144008.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Meditation Relax Deep Sleep",
+          "file": "assets/music/meditation-relax-deep-sleep-quotc-majorquot-music-150647.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Peaceful Mantra",
+          "file": "assets/music/peaceful-mantra-240925.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Soothing Deep Sleep",
+          "file": "assets/music/soothing-deep-sleep-music-432-hz-191708.mp3",
+          "image": "assets/music.png"
+        },
+        {
+          "title": "Very Deep Sleep",
+          "file": "assets/music/very-deep-sleep-music-meditation-203749.mp3",
+          "image": "assets/music.png"
+        }
+      ]
+    }
+  }
+  

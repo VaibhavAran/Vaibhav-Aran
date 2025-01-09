@@ -1,0 +1,63 @@
+{
+    "motivational": [
+        { "text": "The greatest wealth is health.", "author": "Virgil" },
+        { "text": "The only way to do great work is to love what you do.", "author": "Steve Jobs" },
+        { "text": "Success is the sum of small efforts, repeated day in and day out.", "author": "Robert Collier" },
+        { "text": "The only limit to our realization of tomorrow will be our doubts of today.", "author": "Franklin D. Roosevelt" },
+        { "text": "You are never too old to set another goal or to dream a new dream.", "author": "C.S. Lewis" },
+        { "text": "Do not wait to strike till the iron is hot, but make it hot by striking.", "author": "William Butler Yeats" },
+        { "text": "It always seems impossible until it’s done.", "author": "Nelson Mandela" },
+        { "text": "Our greatest glory is not in never falling, but in rising every time we fall.", "author": "Confucius" },
+        { "text": "Act as if what you do makes a difference. It does.", "author": "William James" },
+        { "text": "The only way to achieve the impossible is to believe it is possible.", "author": "Charles Kingsleigh" },
+        { "text": "You have within you right now, everything you need to deal with whatever the world can throw at you.", "author": "Brian Tracy" }
+    ],
+    "inspirational": [
+        { "text": "Take care of your body. It’s the only place you have to live.", "author": "Jim Rohn" },
+        { "text": "Health is not valued until sickness comes.", "author": "Thomas Fuller" },
+        { "text": "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.", "author": "Christian D. Larson" },
+        { "text": "Every day may not be good, but there is something good in every day.", "author": "Alice Morse Earle" },
+        { "text": "You don't have to be great to start, but you have to start to be great.", "author": "Zig Ziglar" },
+        { "text": "Believe you can and you're halfway there.", "author": "Theodore Roosevelt" },
+        { "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.", "author": "Winston Churchill" },
+        { "text": "Opportunities don't happen, you create them.", "author": "Chris Grosser" },
+        { "text": "Don’t wait. The time will never be just right.", "author": "Napoleon Hill" },
+        { "text": "Your positive action combined with positive thinking results in success.", "author": "Shiv Khera" }
+    ],
+    "life": [
+        { "text": "A healthy outside starts from the inside.", "author": "Robert Urich" },
+        { "text": "Happiness is the highest form of health.", "author": "Dalai Lama" },
+        { "text": "Life isn’t about finding yourself. Life is about creating yourself.", "author": "George Bernard Shaw" },
+        { "text": "Your time is limited, don’t waste it living someone else’s life.", "author": "Steve Jobs" },
+        { "text": "In the middle of every difficulty lies opportunity.", "author": "Albert Einstein" },
+        { "text": "Life is 10% what happens to us and 90% how we react to it.", "author": "Charles R. Swindoll" },
+        { "text": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.", "author": "Lord Buddha" },
+        { "text": "Life is what happens when you're busy making other plans.", "author": "John Lennon" },
+        { "text": "The greatest wealth is to live content with little.", "author": "Plato" },
+        { "text": "Life is really simple, but we insist on making it complicated.", "author": "Confucius" }
+    ],
+    "success": [
+        { "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.", "author": "Winston Churchill" },
+        { "text": "Success usually comes to those who are too busy to be looking for it.", "author": "Henry David Thoreau" },
+        { "text": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.", "author": "Albert Schweitzer" },
+        { "text": "Don’t be afraid to give up the good to go for the great.", "author": "John D. Rockefeller" },
+        { "text": "Success is walking from failure to failure with no loss of enthusiasm.", "author": "Winston Churchill" },
+        { "text": "I never dreamed about success. I worked for it.", "author": "Estée Lauder" },
+        { "text": "Success is how high you bounce when you hit bottom.", "author": "George S. Patton" },
+        { "text": "The road to success and the road to failure are almost exactly the same.", "author": "Colin R. Davis" },
+        { "text": "Success seems to be connected with action. Successful people keep moving. They make mistakes, but they don’t quit.", "author": "Conrad Hilton" },
+        { "text": "Coming together is a beginning; keeping together is progress; working together is success.", "author": "Edward Everett Hale" }
+    ],
+    "happiness": [
+        { "text": "Happiness is not something ready made. It comes from your own actions.", "author": "Dalai Lama" },
+        { "text": "For every minute you are angry, you lose sixty seconds of happiness.", "author": "Ralph Waldo Emerson" },
+        { "text": "Happiness is the secret to all beauty. There is no beauty without happiness.", "author": "Christian Dior" },
+        { "text": "The most important thing is to enjoy your life—to be happy—it's all that matters.", "author": "Audrey Hepburn" },
+        { "text": "Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.", "author": "Franklin D. Roosevelt" },
+        { "text": "Happiness is a state of mind. It’s just according to the way you look at things.", "author": "Walt Disney" },
+        { "text": "The purpose of our lives is to be happy.", "author": "Dalai Lama" },
+        { "text": "Happiness consists more in small conveniences or pleasures that occur every day, than in great pieces of good fortune that happen but seldom.", "author": "Benjamin Franklin" },
+        { "text": "Happiness is a journey, not a destination.", "author": "Douglas William Jerrold" },
+        { "text": "If you want happiness for an hour, take a nap. If you want happiness for a day, go fishing. If you want happiness for a year, inherit a fortune. If you want happiness for a lifetime, help someone else.", "author": "Chinese Proverb" }
+    ]
+}

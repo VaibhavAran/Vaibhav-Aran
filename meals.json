@@ -1,0 +1,352 @@
+{
+    "fruits": [
+        {
+            "name": "Apple (1 fruit)",
+            "image": "assets/apple.png",
+            "protein": 0.36,
+            "carbs": 19.06,
+            "fat": 0.23,
+            "energy": 72,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Banana (1 fruit)",
+            "image": "assets/banana.png",
+            "protein": 1.29,
+            "carbs": 26.95,
+            "fat": 0.39,
+            "energy": 105,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Guava (1 fruit)",
+            "image": "assets/guava.png",
+            "protein": 1.3,
+            "carbs": 27,
+            "fat": 0.3,
+            "energy": 37,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Avocados (100g)",
+            "image": "assets/avocados.png",
+            "protein": 2,
+            "carbs": 8.53,
+            "fat": 14.66,
+            "energy": 160,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Orange (1 fruit)",
+            "image": "assets/orange.png",
+            "protein": 1.23,
+            "carbs": 15.39,
+            "fat": 0.16,
+            "energy": 62,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Kiwi (1 fruit)",
+            "image": "assets/kiwi.png",
+            "protein": 0.87,
+            "carbs": 11.14,
+            "fat": 0.4,
+            "energy": 46,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Peach (1 fruit)",
+            "image": "assets/peach.png",
+            "protein": 0.89,
+            "carbs": 9.35,
+            "fat": 0.24,
+            "energy": 38,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Cherry (1 cherry)",
+            "image": "assets/cherry.png",
+            "protein": 0.07,
+            "carbs": 1.09,
+            "fat": 0.01,
+            "energy": 4,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Grapefruit (1 large fruit)",
+            "image": "assets/grapefruit.png",
+            "protein": 2.09,
+            "carbs": 26.83,
+            "fat": 0.33,
+            "energy": 106,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        }
+    ],
+    "vegetables": [
+        {
+            "name": "Green peas (1 cup)",
+            "image": "assets/green-peas.png",
+            "protein": 10.4,
+            "carbs": 23.1,
+            "fat": 0.2,
+            "energy": 135,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Spinach (100g)",
+            "image": "assets/spinach.png",
+            "protein": 2.0,
+            "carbs": 2.9,
+            "fat": 0.7,
+            "energy": 26,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Broccoli (1 medium stalk)",
+            "image": "assets/broccoli.png",
+            "protein": 4.3,
+            "carbs": 10.0,
+            "fat": 0.6,
+            "energy": 51,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Kale (1 cup, chopped)",
+            "image": "assets/kale.png",
+            "protein": 2.9,
+            "carbs": 5.9,
+            "fat": 0.6,
+            "energy": 33,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Mushroom",
+            "image": "assets/mushroom.png",
+            "protein": 0.6,
+            "carbs": 0.6,
+            "fat": 0.1,
+            "energy": 4,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Cauliflower (1 medium head)",
+            "image": "assets/cauliflower.png",
+            "protein": 11.2,
+            "carbs": 29.4,
+            "fat": 2.4,
+            "energy": 176,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Potato",
+            "image": "assets/potato.png",
+            "protein": 3.4,
+            "carbs": 48.1,
+            "fat": 0.2,
+            "energy": 207,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Sweet Corn (medium corn)",
+            "image": "assets/sweet-corn.png",
+            "protein": 3.0,
+            "carbs": 16.8,
+            "fat": 1.2,
+            "energy": 77,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        }
+    ],
+    "dairy": [
+        {
+            "name": "Skim Milk (1 cup)",
+            "image": "assets/skim-milk.png",
+            "protein": 6.3,
+            "carbs": 11.5,
+            "fat": 0.3,
+            "energy": 73,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Yogurt Regular (100g)",
+            "image": "assets/yogurt-plain.png",
+            "protein": 3.6,
+            "carbs": 4.9,
+            "fat": 3.6,
+            "energy": 67,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Cottage Cheese (100g)",
+            "image": "assets/cottage-cheese.png",
+            "protein": 12.8,
+            "carbs": 4.2,
+            "fat": 2.2,
+            "energy": 80,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Greek Yogurt (100g)",
+            "image": "assets/greek-yogurt.png",
+            "protein": 5.2,
+            "carbs": 7.3,
+            "fat": 6.0,
+            "energy": 104,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Buttermilk (100ml)",
+            "image": "assets/buttermilk.png",
+            "protein": 0.9,
+            "carbs": 1.0,
+            "fat": 1.2,
+            "energy": 18,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Mozzarella Cheese (100g)",
+            "image": "assets/mozzarella-cheese.png",
+            "protein": 22.8,
+            "carbs": 4.0,
+            "fat": 17.0,
+            "energy": 260,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        }
+    ],
+    "vegDishes": [
+        {
+            "name": "Paneer Tikka (1 tikka)",
+            "image": "assets/paneer-tikka.png",
+            "protein": 4.3,
+            "carbs": 0.7,
+            "fat": 6.1,
+            "energy": 75,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Lentil Soup (1 cup)",
+            "image": "assets/lentil-soup.png",
+            "protein": 7.5,
+            "carbs": 22.7,
+            "fat": 5.5,
+            "energy": 169,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Chickpea Salad (1 cup)",
+            "image": "assets/chickpea-salad.png",
+            "protein": 7.3,
+            "carbs": 24.6,
+            "fat": 2.1,
+            "energy": 141,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Moong Dal Chilla",
+            "image": "assets/moong-dal-chilla.png",
+            "protein": 5.6,
+            "carbs": 13.8,
+            "fat": 4.5,
+            "energy": 118,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Rajma Chawal (1 cup)",
+            "image": "assets/rajma-chawal.png",
+            "protein": 9.5,
+            "carbs": 43,
+            "fat": 3.4,
+            "energy": 235,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Chana Masala (1 cup)",
+            "image": "assets/chana-masala.png",
+            "protein": 10.5,
+            "carbs": 37.5,
+            "fat": 14.4,
+            "energy": 315,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Sprouted Moong Salad (1 cup)",
+            "image": "assets/sprouted-moong-salad.png",
+            "protein": 2.7,
+            "carbs": 8.8,
+            "fat": 0.3,
+            "energy": 42,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        },
+        {
+            "name": "Pesarattu (1 medium)",
+            "image": "assets/pesarattu.png",
+            "protein": 8.3,
+            "carbs": 19.5,
+            "fat": 5.0,
+            "energy": 155,
+            "ingredients": "N/A",
+            "prepTime": "N/A",
+            "calories": "N/A"
+        }
+    ]
+    
+}
