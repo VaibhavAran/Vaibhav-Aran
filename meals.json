@@ -347,6 +347,64 @@
             "prepTime": "N/A",
             "calories": "N/A"
         }
-    ]
+    ],
     
+    "nonVegDishes": [
+        {
+            "name": "Egg Bhurgi (100g)",
+            "image": "assets/egg-bhurgi.png",
+            "protein": 5.4,
+            "carbs": 4.8,
+            "fat": 9.4,
+            "energy": 122
+        },
+        {
+            "name": "Masala Omelette (1 egg)",
+            "image": "assets/masala-omelette.png",
+            "protein": 6.3,
+            "carbs": 3.6,
+            "fat": 10.5,
+            "energy": 130
+        },
+        {
+            "name": "Boiled Egg Salad (small bowl)",
+            "image": "assets/boiled-egg-salad.png",
+            "protein": 7,
+            "carbs": 4.2,
+            "fat": 6.7,
+            "energy": 102
+        },
+        {
+            "name": "Tandoori Chicken (piece of chicken)",
+            "image": "assets/tandoori-chicken.png",
+            "protein": 19.5,
+            "carbs": 1.3,
+            "fat": 6.3,
+            "energy": 145
+        },
+        {
+            "name": "Mutton Curry (1 cup)",
+            "image": "assets/mutton-curry.png",
+            "protein": 20.2,
+            "carbs": 8.4,
+            "fat": 20.9,
+            "energy": 301
+        },
+        {
+            "name": "Chicken Tikka (1 tikka)",
+            "image": "assets/chicken-tikka.png",
+            "protein": 8.9,
+            "carbs": 1,
+            "fat": 3.7,
+            "energy": 76
+        },
+        {
+            "name": "Chicken And Vegitable Biryani (100g)",
+            "image": "assets/chicken-and-vegitable-biryani.png",
+            "protein": 5.7,
+            "carbs": 11.2,
+            "fat": 6.2,
+            "energy": 125
+        }
+    ]
 }

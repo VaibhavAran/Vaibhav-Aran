@@ -68,6 +68,7 @@ function renderMeals(data) {
     renderCategory("vegetables", data.vegetables || []);
     renderCategory("dairy", data.dairy || []);
     renderCategory("vegDishes", data.vegDishes || []);
+    renderCategory("nonVegDishes", data.nonVegDishes || []);
 }
 
 // Render a specific meal category
@@ -106,6 +107,7 @@ function searchMeal() {
     document.getElementById("vegetables").innerHTML = "";
     document.getElementById("dairy").innerHTML = "";
     document.getElementById("vegDishes").innerHTML = "";
+    document.getElementById("nonVegDishes").innerHTML = "";
 
     const searchResultsContainer = document.getElementById("fruits"); // Use "fruits" container for search results
     searchResultsContainer.innerHTML = ""; // Clear previous results
