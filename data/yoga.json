@@ -1,0 +1,365 @@
+{
+    "yogaSections": [
+        {
+            "id": "skin",
+            "title": "Yoga for Skin",
+            "poses": [
+                {
+                    "poseId": "skin1",
+                    "title": "Adho Mukha Svanasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-skin1",
+                    "description": [
+                        "Start in a tabletop position: hands under shoulders, knees under hips.",
+                        "Spread your fingers wide and press palms firmly into the mat.",
+                        "Tuck your toes under and lift your knees off the ground.",
+                        "Straighten your legs and push your hips up and back, forming an inverted 'V'.",
+                        "Keep your head relaxed and look toward your thighs.",
+                        "Press your heels toward the ground, even if they don’t touch the floor.",
+                        "Hold for 5-10 breaths."
+                    ]
+                },
+                {
+                    "poseId": "skin2",
+                    "title": "Bhujangasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-skin2",
+                    "description": [
+                        "Lie on your stomach with your legs extended and toes pointing back.",
+                        "Place your palms under your shoulders with elbows close to your body.",
+                        "Inhale, press into your palms, and lift your chest off the mat.",
+                        "Keep your shoulders down and elbows slightly bent.",
+                        "Gaze upward without straining your neck.",
+                        "Hold for 15-30 seconds, breathing evenly."
+                    ]
+                },
+                {
+                    "poseId": "skin3",
+                    "title": "Halasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-skin2",
+                    "description": [
+                        "Lie on your back with arms by your sides.",
+                        "Inhale, lift your legs to 90 degrees, and exhale as you roll your hips off the floor.",
+                        "Support your back with your hands and lower your legs over your head.",
+                        "Try to touch your toes to the floor behind you.",
+                        "Keep your neck relaxed and breathe deeply for 15-30 seconds."
+                    ]
+                },
+                {
+                    "poseId": "skin4",
+                    "title": "Matsyasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-skin2",
+                    "description": [
+                        "Lie on your back with your legs together and hands under your thighs.",
+                        "Inhale, arch your back, and lift your chest upward.",
+                        "Rest the top of your head on the mat.",
+                        "Keep your weight on your forearms and head, not your neck.",
+                        "Hold for 15-30 seconds, breathing deeply."
+                    ]
+                },
+                {
+                    "poseId": "skin5",
+                    "title": "Trikonasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-skin2",
+                    "description": [
+                        "Stand with feet wide apart, turning your right foot out and left foot slightly inward.",
+                        "Extend arms at shoulder height.",
+                        "Bend sideways from the hip, reaching your right hand to your shin or ankle.",
+                        "Stretch your left arm upward and gaze toward your left hand.",
+                        "Hold for 10-15 breaths, then switch sides."
+                    ]
+                },
+                {
+                    "poseId": "skin6",
+                    "title": "Balasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-skin2",
+                    "description": [
+                        "Sit on your heels with knees slightly apart.",
+                        "Stretch your arms forward and lower your forehead to the mat.",
+                        "Relax your back and shoulders.",
+                        "Hold for 30 seconds while breathing deeply."
+                    ]
+                },
+                {
+                    "poseId": "skin7",
+                    "title": "Padmasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-skin2",
+                    "description": [
+                        "Sit cross-legged, placing each foot on the opposite thigh.",
+                        "Rest your hands on your knees with palms facing upward.",
+                        "Straighten your back and close your eyes.",
+                        "Breathe deeply and steadily for 1-2 minutes."
+                    ]
+                },
+                {
+                    "poseId": "skin8",
+                    "title": "Tadasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-skin2",
+                    "description": [
+                        "Stand tall with feet together, shoulders relaxed.",
+                        "Interlock your fingers and stretch your arms overhead.",
+                        "Lift your heels off the floor and balance on your toes.",
+                        "Hold for 10-15 breaths while stretching upward."
+                    ]
+                },
+                {
+                    "poseId": "skin9",
+                    "title": "Parivrtta Utkatasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-skin2",
+                    "description": [
+                        "Stand with feet together, then bend your knees as if sitting in a chair.",
+                        "Bring your palms together at your chest in a prayer position.",
+                        "Twist your torso to the right, hooking your left elbow on the outside of your right knee.",
+                        "Hold for 15-30 seconds, then switch sides."
+                    ]
+                },
+                {
+                    "poseId": "skin10",
+                    "title": "Supta Baddha Konasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-skin2",
+                    "description": [
+                        "Lie on your back with soles of your feet together and knees falling apart.",
+                        "Place hands on your belly or stretch them out to the sides.",
+                        "Relax and hold the pose for 1-2 minutes."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "lungs",
+            "title": "Yoga for Healthy Lungs",
+            "poses": [
+                {
+                    "poseId": "lungs1",
+                    "title": "Kapalabhati Pranayama",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-lungs1",
+                    "description": [
+                        "Sit comfortably with your spine straight.",
+                        "Take a deep inhale and exhale forcefully through your nose while contracting your abdomen.",
+                        "Keep your inhales passive and focus on sharp, rhythmic exhales.",
+                        "Repeat for 1-2 minutes."
+                    ]
+                },
+                {
+                    "poseId": "lungs2",
+                    "title": "Ustrasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-lungs2",
+                    "description": [
+                        "Kneel on the mat with knees hip-width apart.",
+                        "Place hands on your lower back or reach for your heels.",
+                        "Inhale, arch your back, and push your hips forward.",
+                        "Gaze upward or back and hold for 20-30 seconds."
+                    ]
+                },
+                {
+                    "poseId": "lungs3",
+                    "title": "Dhanurasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-lungs2",
+                    "description": [
+                        "Lie on your stomach with arms at your sides.",
+                        "Bend your knees and grab your ankles with your hands.",
+                        "Inhale, lift your chest and thighs off the floor.",
+                        "Hold for 15-30 seconds, breathing deeply."
+                    ]
+                },
+                {
+                    "poseId": "lungs4",
+                    "title": "Nadi Shodhana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-lungs2",
+                    "description": [
+                        "Sit in a comfortable position with your right thumb closing your right nostril.",
+                        "Inhale deeply through your left nostril.",
+                        "Close your left nostril with your ring finger and exhale through your right."
+                    ]
+                },
+                {
+                    "poseId": "lungs5",
+                    "title": "Setu Bandhasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-lungs2",
+                    "description": [
+                        "Lie on your back with knees bent and feet hip-width apart.",
+                        "Press into your feet and lift your hips.",
+                        "Interlace your hands under your back and hold for 15-30 seconds."
+                    ]
+                },
+                {
+                    "poseId": "lungs6",
+                    "title": "Simhasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-lungs2",
+                    "description": [
+                        "Kneel and sit back on your heels.",
+                        "Inhale deeply through your nose, then exhale through your mouth while sticking out your tongue.",
+                        "Repeat for 5-10 rounds."
+                    ]
+                },
+                {
+                    "poseId": "lungs7",
+                    "title": "Standing Side Stretch",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-lungs2",
+                    "description": [
+                        "Stand with feet together, arms overhead.",
+                        "Interlace fingers and lean to one side.",
+                        "Hold for 10-15 seconds, then switch sides."
+                    ]
+                },
+                {
+                    "poseId": "lungs8",
+                    "title": "Salamba Bhujangasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-lungs2",
+                    "description": [
+                        "Lie on your stomach, elbows under shoulders, forearms parallel.",
+                        "Lift your chest and relax your shoulders.",
+                        "Hold for 30 seconds."
+                    ]
+                },
+                {
+                    "poseId": "lungs9",
+                    "title": "Chaturanga Dandasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-lungs2",
+                    "description": [
+                        "Start in a plank position, lower your chest and thighs toward the floor.",
+                        "Keep your elbows close to your body.",
+                        "Hold for 15-20 seconds."
+                    ]
+                },
+                {
+                    "poseId": "lungs10",
+                    "title": "Virabhadrasana II",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-lungs2",
+                    "description": [
+                        "Stand with feet wide apart, turn one foot out.",
+                        "Bend the front knee at 90 degrees, arms extended parallel to the ground.",
+                        "Hold for 20-30 seconds."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "flexibility",
+            "title": "Yoga for Flexibility",
+            "poses": [
+                {
+                    "poseId": "flexibility1",
+                    "title": "Balasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-flexibility1",
+                    "description": [
+                        "Kneel on the mat with your knees slightly apart and big toes touching.",
+                        "Sit back on your heels.",
+                        "Stretch your arms forward and lower your chest toward the floor.",
+                        "Rest your forehead on the mat.",
+                        "Breathe deeply, focusing on relaxing your hips, back, and shoulders.",
+                        "Hold for 30 seconds to 1 minute."
+                    ]
+                },
+                {
+                    "poseId": "flexibility2",
+                    "title": "Marjaryasana-Bitilasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-flexibility2",
+                    "description": [
+                        "Start in a tabletop position: hands under shoulders, knees under hips.",
+                        "Cow Pose: Inhale, arch your back, drop your belly, and lift your gaze upward.",
+                        "Cat Pose: Exhale, round your spine, tuck your chin, and draw your belly in.",
+                        "Flow between these two poses with your breath for 1-2 minutes."
+                    ]
+                },
+                {
+                    "poseId": "flexibility3",
+                    "title": "Seated Twist",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-flexibility2",
+                    "description": [
+                        "Sit on the mat with your legs extended.",
+                        "Bend your knees and bring the soles of your feet together.",
+                        "Pull your feet closer to your pelvis, letting your knees drop toward the floor.",
+                        "Hold your feet with your hands, sitting tall and straight.",
+                        "Gently press your knees down with your elbows if comfortable.",
+                        "Hold for 30 seconds to 1 minute, breathing deeply."
+                    ]
+                },
+                {
+                    "poseId": "flexibility4",
+                    "title": "Uttanasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-flexibility2",
+                    "description": [
+                        "Stand tall with feet hip-width apart.",
+                        "Inhale, lengthen your spine, and exhale as you fold forward from the hips.",
+                        "Let your hands rest on the floor, ankles, or shins (depending on your flexibility).",
+                        "Relax your neck and shoulders, letting your head hang heavy.",
+                        "Hold for 30 seconds to 1 minute, breathing deeply."
+                    ]
+                },
+                {
+                    "poseId": "flexibility5",
+                    "title": "Eka Pada Rajakapotasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-flexibility2",
+                    "description": [
+                        "Start in a downward dog position.",
+                        "Bring your right knee forward, placing it behind your right wrist.",
+                        "Extend your left leg straight behind you with the top of the foot flat on the floor.",
+                        "Keep your hips square to the front and fold your torso forward over your bent leg.",
+                        "Rest your arms on the floor or extend them forward.",
+                        "Hold for 30 seconds to 1 minute on each side."
+                    ]
+                },
+                {
+                    "poseId": "flexibility6",
+                    "title": "Utthita Parsvakonasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-flexibility2",
+                    "description": [
+                        "Stand with feet wide apart, turning your right foot out and left foot slightly inward.",
+                        "Bend your right knee to a 90-degree angle, keeping the knee over the ankle.",
+                        "Place your right forearm on your right thigh or hand on the floor inside your right foot.",
+                        "Stretch your left arm overhead, creating a straight line from your left fingertips to your left foot.",
+                        "Hold for 20-30 seconds on each side."
+                    ]
+                },
+                {
+                    "poseId": "flexibility7",
+                    "title": "Utthan Pristhasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-flexibility2",
+                    "description": [
+                        "Start in a low lunge position with your right foot forward and left leg extended back.",
+                        "Place both hands on the inside of your right foot.",
+                        "Lower your hips toward the floor and keep your back leg straight.",
+                        "If comfortable, drop to your forearms.",
+                        "Hold for 20-30 seconds on each side, breathing deeply."
+                    ]
+                },
+                {
+                    "poseId": "flexibility8",
+                    "title": "Ardha Matsyendrasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-flexibility2",
+                    "description": [
+                        "Sit with your legs extended in front of you.",
+                        "Bend your right knee and place your right foot on the outside of your left thigh.",
+                        "Bend your left leg and tuck your left foot near your right hip.",
+                        "Place your right hand behind you for support.",
+                        "Inhale, raise your left arm, and exhale as you twist your torso to the right, placing your left elbow outside your right knee.",
+                        "Hold for 20-30 seconds, then repeat on the other side."
+                    ]
+                },
+                {
+                    "poseId": "flexibility9",
+                    "title": "Prasarita Padottanasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-flexibility2",
+                    "description": [
+                        "Stand with your legs wide apart, feet parallel to each other.",
+                        "Inhale, lengthen your spine, and exhale as you fold forward from your hips.",
+                        "Place your hands on the floor, shoulder-width apart, or grab your ankles.",
+                        "Relax your neck and shoulders.",
+                        "Hold for 30 seconds to 1 minute, breathing deeply."
+                    ]
+                },
+                {
+                    "poseId": "flexibility10",
+                    "title": "Urdhva Dhanurasana",
+                    "videoUrl": "https://www.youtube.com/embed/video-id-for-flexibility2",
+                    "description": [
+                        "Lie on your back with knees bent and feet flat on the floor, hip-width apart.",
+                        "Place your hands beside your ears with fingers pointing toward your shoulders.",
+                        "Press into your hands and feet, lifting your hips and chest off the floor.",
+                        "Straighten your arms and legs as much as possible, forming an arch.",
+                        "Hold for 10-15 seconds, breathing deeply."
+                    ]
+                }
+            ]
+        }
+    ]
+}

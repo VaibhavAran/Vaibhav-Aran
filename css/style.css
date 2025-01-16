@@ -651,49 +651,6 @@ h1, h2 {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/*yoga section*/
-.coming-soon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    color: rgb(83, 80, 80);
-    text-align: center;
-}
-
-.coming-soon-container {
-    animation: fadeIn 1.5s ease-in-out;
-}
-
-.coming-soon h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-.coming-soon p {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
-
-.coming-soon h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #94938f;
-}
-
-/* Add fade-in animation */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-/*yoga section close*/
-
 
 /* Music Section */
 .music-section {
@@ -878,3 +835,122 @@ footer {
     width: 100%;
 }
 
+
+
+/* Section Styles */
+.yoga-category {
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.yoga-category h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.yoga-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Yoga Card Styles */
+.yoga-card {
+    background: #fff;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.yoga-card:hover {
+    transform: translateY(-5px);
+}
+
+.yoga-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.yoga-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.yoga-card button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.yoga-card button:hover {
+    background: #45a049;
+}
+
+/* Modal Styles */
+.yoga-modal {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 1000;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    transition: right 0.5s ease;
+}
+
+.yoga-modal-header {
+    background: #4CAF50;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.yoga-modal-content {
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #f44336;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background: #e53935;
+}
+
+
+.fancy-title {
+    font-family: "Georgia", serif;
+    font-size: 1.8em;
+    color: #6a1b9a;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid #6a1b9a;
+    display: inline-block;
+    padding: 5px 10px;
+}
