@@ -33,6 +33,15 @@ sections.forEach(section => {
     observer.observe(section);
 });
 
+document.querySelectorAll('.feature-card').forEach(card => {
+    card.addEventListener('mouseenter', () => {
+        card.style.transform = 'scale(1.05)';
+    });
+    card.addEventListener('mouseleave', () => {
+        card.style.transform = 'scale(1)';
+    });
+});
+
 
 // Store the raw meal data for resetting and searching
 let mealData = {};
